@@ -133,6 +133,7 @@
   <ItemGroup>
     <ClCompile Include="AreaShowText.cpp" />
     <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="InputArea.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -151,6 +152,7 @@
   <ItemGroup>
     <ClInclude Include="AreaShowText.h" />
     <ClInclude Include="Cell.h" />
+    <ClInclude Include="InputArea.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -9,6 +9,8 @@ AreaShowText::AreaShowText(const Vector2f& AreaSize)
 void AreaShowText::setPosition(float x, float y)
 {
 	area.setPosition(x, y);
+	text.setPosition(x,y);
+
 }
 
 void AreaShowText::setString(const String& string)
@@ -18,7 +20,6 @@ void AreaShowText::setString(const String& string)
 	text.setCharacterSize((unsigned int)area.getSize().y * 0.8);
 	text.setOrigin(Vector2f((text.getLocalBounds().width) / 2,
 		(text.getLocalBounds().height *1.5)));
-	text.setPosition(area.getPosition());
 }
 
 void AreaShowText::draw(sf::RenderWindow& window)

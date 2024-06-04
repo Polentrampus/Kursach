@@ -24,6 +24,9 @@
     <ClCompile Include="AreaShowText.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="InputArea.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="sfml-window-d-2.dll" />
@@ -43,6 +46,9 @@
       <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="AreaShowText.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="InputArea.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>
